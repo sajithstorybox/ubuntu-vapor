@@ -15,5 +15,4 @@ RUN apt-get install php-simplexml -y
 RUN apt-get install composer -y
 RUN apt-get update -yqq
 RUN apt-get install nodejs npm -y
-RUN source ~/.bashrc
 #CMD ["/run.sh"]
